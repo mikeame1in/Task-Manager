@@ -4,6 +4,6 @@ import com.amelin.taskmanager.model.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 public interface UserService {
-    User get(User user);
+    User getCurrentUser();
     User create(User user);
 }

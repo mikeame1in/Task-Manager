@@ -20,4 +20,6 @@ public class Task {
     private String description;
 
     private boolean done;
+
+    private Long userId;
 }

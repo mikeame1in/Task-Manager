@@ -11,10 +11,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/users")
-    public User get(@RequestBody User user) {
-         return userService.get(user);
-    }
+//    @GetMapping("/users")
+//    public User get(@RequestBody User user) {
+//         return userService.get(user);
+//    }
 
     @PostMapping("/users")
     public User create(@RequestBody User user) {
