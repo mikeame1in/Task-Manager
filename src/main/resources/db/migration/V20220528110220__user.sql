@@ -1,5 +1,3 @@
-DROP TABLE app_users;
-
 CREATE TABLE app_users (
 
                       id BIGSERIAL PRIMARY KEY,

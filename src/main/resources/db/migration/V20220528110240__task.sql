@@ -1,5 +1,3 @@
-DROP TABLE task;
-
 CREATE TABLE task (
 
                       id BIGSERIAL PRIMARY KEY,
@@ -10,7 +8,7 @@ CREATE TABLE task (
 
                       done BOOLEAN NOT NULL DEFAULT FALSE,
 
-                      user_id BIGINTEGER NOT NULL);
+                      user_id BIGSERIAL NOT NULL);
 
 CREATE INDEX task_date_idx ON task (date);
 
